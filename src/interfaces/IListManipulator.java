@@ -87,7 +87,7 @@ public interface IListManipulator {
      * @param head the head of the list
      * @return true if the list contains two or more elements that are equal to one another
      */
-    boolean containsDuplicates(ListNode head);
+    boolean containsDuplicates(ListNode head) throws InvalidIndexException;
 
     /**
      * Adds a single node to the front of a list. You may assume that the head and node are both non-null and that
